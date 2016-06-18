@@ -1,2 +1,2 @@
-# chicagopolyglot
-ChicagoPolyglot.com web site.
+# ChicagoPolyglot.com
+Everything important happens in the `gh-pages` branch.
