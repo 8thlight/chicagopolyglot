@@ -49,7 +49,6 @@
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
 		letter-spacing: 0.125em;
 	}
 
@@ -469,7 +468,7 @@
 		border-radius: 6px;
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position: relative;;
 	}
 
 		.image img {
@@ -490,6 +489,7 @@
 		}
 
 		.image.fit {
+			float: center;
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
