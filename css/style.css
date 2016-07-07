@@ -1128,6 +1128,14 @@
   padding-left: 0;
 }
 
+.sponsors ul {
+  margin: 0.5em;
+}
+
+.partners ul.actions {
+  margin: 0;
+}
+
 .partners li {
   padding-left: 0;
   margin: 1em 0;
@@ -1141,4 +1149,8 @@
 .partners img {
   width: 160px;
   padding: 0 1em;
+}
+
+.sponsors img {
+  width: 250px !important;
 }
