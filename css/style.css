@@ -922,6 +922,7 @@
 			margin: 0;
 			padding: 0;
 			position: absolute;
+
 			top: 0;
 		}
 
@@ -1053,12 +1054,14 @@
 		#banner h2 {
 			font-size: 3.5em;
 			line-height: 1em;
+			text-transform: uppercase;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner p {
 			color: #FFFFFF;
+			font-weight: 400;
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin-bottom: 2em;
