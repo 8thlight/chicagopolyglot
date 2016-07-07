@@ -1154,3 +1154,12 @@
 .sponsors img {
   width: 250px !important;
 }
+
+.header-sponsors {
+  margin-bottom: 1em !important;
+}
+
+
+#two {
+  padding: 3em 0 1em 0;
+}
