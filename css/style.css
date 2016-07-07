@@ -1189,3 +1189,7 @@
   color: #FFF !important;
   border-bottom: 1px solid rgba(255,255,255,1);
 }
+
+.coc p, .coc li {
+  text-align: left;
+}
