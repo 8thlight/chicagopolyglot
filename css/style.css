@@ -172,6 +172,7 @@
 		color: #bbb;
 		position: relative;
 		margin: 0 0 1.5em 0;
+    max-width: 1100px;
 	}
 
 	header h2 + p {
@@ -196,7 +197,9 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 4em 0;
+    margin: 0 auto 4em auto;
+    width: 100%;
+    max-width: 1000px;
 	}
 
 		header.major h2 {
@@ -497,8 +500,7 @@
 
 			.image.fit img {
 				display: block;
-				width:131x;
-				height:61px
+				width: 150px;
 			}
 
 /* List */
@@ -1108,3 +1110,32 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+
+
+/* Partner Styles */
+
+.partners ul {
+  list-style-type: none;
+  margin: 1.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.partners li {
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.partners li a {
+  display: flex;
+  align-items: flex-start;
+}
+
+.partners img {
+  width: 160px;
+  padding: 0 1em;
+}
