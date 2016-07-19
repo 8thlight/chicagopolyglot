@@ -495,7 +495,6 @@
 
 		.image.fit {
 			float: center;
-			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
@@ -504,6 +503,11 @@
 				display: block;
 				width: 150px;
 			}
+
+.sponsors li {
+	display: flex;
+	align-items: center;
+}
 
 /* List */
 
@@ -1165,6 +1169,7 @@
 
 .sponsors img {
   width: 250px !important;
+	order: ;
 }
 
 .header-sponsors {
